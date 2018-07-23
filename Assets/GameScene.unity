@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 569144926}
   m_Layer: 0
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: GroundTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -673,6 +673,10 @@ Prefab:
     - target: {fileID: 6100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 2}
       propertyPath: m_Size.y
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 2}
+      propertyPath: m_TagString
+      value: UnityChanTag
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 2}
